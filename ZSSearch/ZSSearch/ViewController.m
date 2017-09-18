@@ -17,7 +17,7 @@
 
 @property (nonatomic,strong) NSArray *person;
 
-@property (nonatomic,strong) UISearchBar *searchBar;
+@property (nonatomic,weak) UISearchBar *searchBar;
 //显示搜索结果的控制器
 @property (nonatomic,strong) ZSSearchResultViewController *searchResultVC;
 
